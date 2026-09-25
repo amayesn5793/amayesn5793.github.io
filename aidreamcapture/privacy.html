@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Dream Capture — Privacy Policy</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap">
+<style>
+  :root {
+    --bg: #0f0a1f;
+    --surface: #1a1230;
+    --border: rgba(124,92,191,0.2);
+    --text: #e8e4f0;
+    --text-muted: #9a8fad;
+    --accent: #7C3AED;
+    --accent-light: #c4b5fd;
+    --heading: #f5f2fa;
+  }
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) {
+      --bg: #f8f6fc;
+      --surface: #ffffff;
+      --border: rgba(124,92,191,0.15);
+      --text: #2d2640;
+      --text-muted: #6b6080;
+      --accent: #7C3AED;
+      --accent-light: #7C3AED;
+      --heading: #1a1230;
+    }
+  }
+  :root[data-theme="light"] {
+    --bg: #f8f6fc;
+    --surface: #ffffff;
+    --border: rgba(124,92,191,0.15);
+    --text: #2d2640;
+    --text-muted: #6b6080;
+    --accent: #7C3AED;
+    --accent-light: #7C3AED;
+    --heading: #1a1230;
+  }
+  :root[data-theme="dark"] {
+    --bg: #0f0a1f;
+    --surface: #1a1230;
+    --border: rgba(124,92,191,0.2);
+    --text: #e8e4f0;
+    --text-muted: #9a8fad;
+    --accent: #7C3AED;
+    --accent-light: #c4b5fd;
+    --heading: #f5f2fa;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  .header .icon { font-size: 48px; margin-bottom: 16px; }
+  .header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.6rem, 4vw, 2rem);
+    font-weight: 700;
+    color: var(--heading);
+    margin-bottom: 8px;
+  }
+  .header .subtitle { font-size: 0.9rem; color: var(--text-muted); }
+  .updated {
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-bottom: 40px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--border);
+  }
+  .section { margin-bottom: 36px; }
+  .section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--heading);
+    margin-bottom: 12px;
+  }
+  .section p, .section li { font-size: 0.92rem; color: var(--text); margin-bottom: 10px; }
+  .section ul { padding-left: 20px; margin-bottom: 12px; }
+  .section li { margin-bottom: 6px; }
+  .highlight {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin: 16px 0;
+  }
+  .highlight strong { color: var(--accent-light); }
+  .contact-box {
+    text-align: center;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 28px 24px;
+    margin-top: 40px;
+  }
+  .contact-box h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    color: var(--heading);
+    margin-bottom: 8px;
+  }
+  .contact-box p { font-size: 0.88rem; color: var(--text-muted); margin-bottom: 14px; }
+  .contact-box a {
+    display: inline-block;
+    padding: 10px 28px;
+    background: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="icon">🌙</div>
+    <h1>Privacy Policy</h1>
+    <p class="subtitle">AI Dream Capture</p>
+  </div>
+
+  <p class="updated">Last updated: September 21, 2026</p>
+
+  <div class="section">
+    <h2>Overview</h2>
+    <p>AI Dream Capture ("the App") is developed by AI Ghostwriter. We are committed to protecting your privacy. This policy explains what data the App collects, how it is used, and your rights regarding that data.</p>
+  </div>
+
+  <div class="section">
+    <h2>Data We Collect &amp; Share</h2>
+    <div class="highlight">
+      <p><strong>Dream Descriptions (Shared with Anthropic)</strong> — When you record a dream, the audio is transcribed on your device using Apple's Speech framework. The resulting text description is then sent to <strong>Anthropic's Claude AI service</strong> (a third-party AI provider) to generate your personalized story. Your text description is processed by Anthropic in real time and is not retained on Anthropic's servers after story generation is complete. The App asks for your explicit consent before sending any data to Anthropic.</p>
+    </div>
+    <div class="highlight">
+      <p><strong>Audio Narration (Shared with Speechify)</strong> — When you generate audio narration, your story text is sent to <strong>Speechify's text-to-speech service</strong> (a third-party provider) to create the audio narration. The text is processed in real time to generate audio and is not retained after processing.</p>
+    </div>
+    <div class="highlight">
+      <p><strong>Purchase Information</strong> — If you subscribe or purchase extra credits, Apple processes and manages all payment transactions through the App Store. We do not collect, store, or have access to your payment details such as credit card numbers. We receive only a confirmation of your purchase status to unlock features within the App.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Data We Do Not Collect</h2>
+    <p>The App does not collect:</p>
+    <ul>
+      <li>Your name, email address, or contact information</li>
+      <li>Location data</li>
+      <li>Device identifiers for tracking purposes</li>
+      <li>Browsing or search history</li>
+      <li>Contacts, photos, or other personal files</li>
+    </ul>
+    <p>The App does not require an account or sign-in to use.</p>
+  </div>
+
+  <div class="section">
+    <h2>How We Use Your Data</h2>
+    <p>Your dream description text is sent exclusively to Anthropic's Claude AI to generate your personalized story. The text is transmitted securely via HTTPS, processed in real time, and is not retained by Anthropic after your story is generated.</p>
+    <p>Your story text is sent to Speechify's text-to-speech service to generate audio narration. The text is processed in real time and is not retained after the audio is created.</p>
+    <p>Generated stories and audio narrations are stored locally on your device. We do not have access to your saved stories.</p>
+  </div>
+
+  <div class="section">
+    <h2>User Consent</h2>
+    <p>Before any data is sent to a third-party AI service, the App presents a consent screen that explains what data will be shared, identifies the third-party service provider, and requires your explicit agreement before proceeding. You must accept this consent to use the story generation feature.</p>
+  </div>
+
+  <div class="section">
+    <h2>Third-Party Services</h2>
+    <p>The App shares data with the following third-party services:</p>
+    <ul>
+      <li><strong>Anthropic (Claude AI API)</strong> — Your dream description text is sent to Anthropic to generate personalized stories. Anthropic processes the text in real time and does not retain it. Anthropic's privacy policy governs their handling of data: <a href="https://www.anthropic.com/privacy" style="color: var(--accent-light);">anthropic.com/privacy</a></li>
+      <li><strong>Speechify (Text-to-Speech)</strong> — Your story text is sent to Speechify to generate audio narration. Speechify processes the text in real time and does not retain it.</li>
+      <li><strong>Apple StoreKit</strong> — Manages subscriptions and in-app purchases. Apple's privacy policy governs payment processing.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Data Storage &amp; Security</h2>
+    <p>Your stories and app preferences are stored locally on your device. Audio recordings are transmitted using encrypted connections (HTTPS) and are not persisted on any server after processing.</p>
+    <p>We do not operate user accounts or databases that store personal information.</p>
+  </div>
+
+  <div class="section">
+    <h2>Children's Privacy</h2>
+    <p>The App is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has provided personal data through the App, please contact us so we can take appropriate action.</p>
+  </div>
+
+  <div class="section">
+    <h2>Your Rights</h2>
+    <p>Since the App does not collect or store personal data on our servers, there is no personal data for us to delete, export, or modify. Stories saved on your device can be deleted at any time by removing them from your library or uninstalling the App.</p>
+  </div>
+
+  <div class="section">
+    <h2>Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated revision date. Continued use of the App after changes constitutes acceptance of the revised policy.</p>
+  </div>
+
+  <div class="contact-box">
+    <h2>Questions?</h2>
+    <p>If you have any questions about this Privacy Policy, contact us.</p>
+    <a href="mailto:aighostwriter@mayes.com">Contact Us</a>
+  </div>
+</div>
+</body>
+</html>
